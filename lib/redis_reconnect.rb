@@ -1,5 +1,3 @@
-require "cache-store-api"
-
 class RedisReconnect
   attr_reader :connection_getter
   def initialize(app, connection_getter)
